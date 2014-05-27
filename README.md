@@ -1,3 +1,15 @@
+
+THe package is build for Chinese word segmentation with bugs Fixes & improper discriptions in the package.
+We would thx to the original builder ansjsun.
+
+
+No Warranty for any usage to anyone. 
+
+
+######TODO 
+###### add MIT License 
+
+
 Ansj中文分词
 ==================
 
