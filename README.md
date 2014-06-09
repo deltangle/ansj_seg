@@ -1,13 +1,14 @@
+###### Goal
+###### Refactor the project to make the project reusable like lucene
+
+
 
 THe package is build for Chinese word segmentation with bugs Fixes & improper discriptions in the package.
-We would thx to the original builder ansjsun.
+We would thx to the initiator ansjsun.
 
 
 No Warranty for any usage to anyone. 
 
-
-######TODO 
-###### add MIT License 
 
 
 Ansj中文分词
