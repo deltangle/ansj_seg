@@ -95,6 +95,27 @@
 					</execution>
 				</executions>
 			</plugin>
+			 <plugin>
+                <artifactId>maven-javadoc-plugin</artifactId>
+      </plugin>
+
+      <plugin>
+        <artifactId>maven-source-plugin</artifactId>
+      </plugin>
+
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-remote-resources-plugin</artifactId>
+        <configuration>
+          <appendedResourcesDirectory>../src/main/appended-resources</appendedResourcesDirectory>
+          <resourceBundles>
+            <resourceBundle>org.apache:apache-jar-resource-bundle:1.4</resourceBundle>
+          </resourceBundles>
+          <supplementalModels>
+            <supplementalModel>supplemental-models.xml</supplementalModel>
+          </supplementalModels>
+        </configuration>
+      </plugin>
 		</plugins>
 
 
